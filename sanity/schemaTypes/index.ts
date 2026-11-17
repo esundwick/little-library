@@ -4,6 +4,7 @@ import castMember from './castMember'
 import movie from './movie'
 import person from './person'
 import screening from './screening'
+import borrow from './borrow'
 import plotSummary from './plotSummary'
 import plotSummaries from './plotSummaries'
 
@@ -12,7 +13,7 @@ export const schemaTypes = [
   movie,
   person,
   screening,
-
+  borrow,
   // Other types
   blockContent,
   plotSummary,
